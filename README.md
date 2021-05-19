@@ -5,7 +5,7 @@ curl http://localhost:8080/
 ```bash
 curl -H "Content-Type: application/json" -X POST -d '{
     "firstName": "Bruno",
-    "lastName": "Krebs"
+    "lastName": "Diaz"
 }'  http://localhost:8080/
 ```
 
@@ -18,6 +18,6 @@ curl -X DELETE http://localhost:8080/1
 curl -H "Content-Type: application/json" -X PUT -d '{
     "id": 6,
     "firstName": "Bruno",
-    "lastName": "Simões Krebs"
+    "lastName": "Diaz Rodriguez"
 }'  http://localhost:8080/6
 ```
